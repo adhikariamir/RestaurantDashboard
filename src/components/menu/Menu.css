@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+.menu-request{
+    padding: 25px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+   
+}
+.main__container_menu{
+    padding: 5px 5px;
+}
+
+.menu-request-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.menu-request-title> div > h6 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    
+}
+
+.food-menu{ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     gap: 20px; 
+    
+  
+ } 
+.menu-food-card{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 6px 1px rgb(69 65 78 / 10%);
+
+  
+}
+
+.img-card img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 100%;
+    max-height: 150px;
+    width: fit-content;
+    object-fit: cover;
+    object-position: 50%,50%;
+    inline-size:fit-content;
+}
+
+
+.food-menu-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-top:0px;
+
+}
+.food-menu-title h6{
+    font-size: 1.3rem;
+    color: #4a4a4a;
+    line-height: 2.25rem;
+    text-align: left;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+}
+
+@media only screen and (max-width: 855px){
+    .food-menu{ 
+    grid-template-columns: repeat(2,1fr);
+    }
+    .img-card img {
+        max-height: 70px;
+    }
+    .food-menu-title h6{
+        font-size: 1rem;
+    }
+}

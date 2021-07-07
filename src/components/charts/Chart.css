@@ -1,0 +1,9 @@
+@media only screen and (max-width:  855px ) {
+
+.charts__left {
+   overflow-y: auto;
+}
+
+
+}
+

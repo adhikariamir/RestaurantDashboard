@@ -1,0 +1,66 @@
+.recent-order-placed-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap : 30px;
+    margin-top : 50px;
+    }
+    
+
+    .recent-order-placed-request{
+        padding: 25px;
+        border-radius: 5px;
+        background: #ffffff;
+        box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+       
+    }
+
+
+    .recent-order-placed-request-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+    .recent-order-placed-request-title> div > h6 {
+        font-size: 16px;
+        /* color:#2e4a66; */
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-weight:bolder;
+        
+    }
+    
+
+.recent-order-placed-list{
+    display: grid;
+    /* margin: 20px 0px; */
+    }
+
+
+
+    .cDmETx {
+    min-height: 0px;
+    }
+
+
+.food-status{
+    color: white;
+
+    border-radius: 4px;
+    width: 82px;
+    line-height: 21px;
+    text-align: center;
+}
+.pending{
+    background-color: grey;
+   
+}
+.cancelled{
+    background-color: #200303;
+   
+}
+.deliverd{
+    background-color: green;
+   
+}

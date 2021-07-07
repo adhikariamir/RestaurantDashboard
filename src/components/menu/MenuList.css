@@ -1,0 +1,92 @@
+.menu-list{
+    padding: 5px 15px;
+}
+.food-menu-list-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ margin-top:0px;
+
+
+}
+.food-menu-list-title p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: justify;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+  
+}
+
+.food-menu-list-title h6{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.food-description{
+    margin-top: 5px;
+ margin-bottom: 10px;
+   text-align: justify;
+    word-break: break-word;
+}
+
+
+.img-list-card img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 100%;
+    max-height: 130px;
+    width: fit-content;
+    object-fit: cover;
+    object-position: 50%,50%;
+    inline-size:fit-content;
+}
+
+.list-button{
+   color: #fff;
+   width: 100%;
+   max-width: 5vw;
+   height: 4vh;
+   border-radius:4px ;
+
+}
+
+.list-button-remove{
+    background-color: #ff6877;
+    border-color: #ff6877; 
+  
+}
+.list-button-edit{
+    background-color: #141414;
+    border-color: #141414; 
+    
+}
+.food-status{
+    color: white;
+font-size: 12px;
+    border-radius: 4px;
+    width: 62px;
+    line-height: 21px;
+    text-align: center;
+}
+.stock{
+    background-color: green;
+   
+}
+.outOfStock{
+    background-color: grey;
+   
+}
+
+@media only screen and (max-width: 855px){
+ 
+    .food-menu-list-title p{
+        font-size: 1rem;
+    }
+    .img-card img {
+        max-height: 114px;
+    }
+    .food-status{
+        width: 52px;
+    }
+}
